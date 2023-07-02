@@ -107,7 +107,7 @@ body {
 .vertical-line {
   width: 0.1rem;
   height: 8.4rem;
-  border: 1px solid var(--osloGrey);
+  border: 0.1rem solid var(--osloGrey);
   opacity: 0.25;
   margin: 0 auto;
 }
@@ -115,7 +115,7 @@ body {
 .numbered-circle {
   height: 5.6rem;
   width: 5.6rem;
-  border: 1px solid rgba(135, 135, 157, 0.25);
+  border: 0.1rem solid rgba(135, 135, 157, 0.25);
   border-radius: 2.9rem;
   display: flex;
   justify-content: center;
@@ -411,8 +411,8 @@ body {
   /********* HERO SECTION *********/
   .hero-section-container {
     position: relative;
-    padding-top: 1px;
-    margin-top: -1px;
+    padding-top: 0.1rem;
+    margin-top: -0.1rem;
   }
 
   .hero-img {
